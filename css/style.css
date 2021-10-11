@@ -124,6 +124,7 @@
     max-width:80%;
     margin: auto;
     font-family:'Ubuntu',sans-serif ;
+
 }
 
 .section-left{
@@ -142,4 +143,29 @@
     width: 250px;
     border: 3px solid black;
     border-radius: 13px;
+}
+
+.contact{
+    background-color: #deb8876b;
+    height: a uto;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+    padding: 20px;
+    font-family:'Ubuntu',sans-serif ;
+}
+
+.form{
+    max-width: 500px;
+    margin:42px auto;
+}
+
+.form-input{
+    margin:10px 0;
+    width: 100%;
+    font-size: 19px;
+    border:2px solid gray;
+    border-radius: 6px;
 }
