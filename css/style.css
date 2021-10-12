@@ -147,19 +147,19 @@
 
 .contact{
     background-color: #deb8876b;
-    height: a uto;
+    height: 30rem;
     color: white;
 }
 
 .text-center{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family:'Ubuntu',sans-serif ;
 }
 
 .form{
     max-width: 500px;
-    margin:42px auto;
+    margin:5px auto;
 }
 
 .form-input{
@@ -168,4 +168,12 @@
     font-size: 19px;
     border:2px solid gray;
     border-radius: 6px;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 10px;
+    font-family:'Ubuntu',sans-serif ;
+    background-color: #d6cbcb7a;
+    margin: 0;
 }
