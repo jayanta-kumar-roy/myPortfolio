@@ -199,12 +199,16 @@ html {
 }
 
 @media only screen and (max-width:900px){
+    .thumbnail{
+        margin-top: 14px;
+    }
     .box-main{
         flex-direction: column-reverse;
         max-width: 100%;
     }
     .section{
         flex-direction: column;
+        margin: 20px auto;
     }
     .section-left{
         flex-direction: column;
