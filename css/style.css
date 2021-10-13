@@ -210,7 +210,8 @@ html {
         max-width: 100%;
     }
     .secondHalf img{
-        width:92%; 
+        width: 140%;
+        margin-top: 60px;
     }
     .section{
         flex-direction: column;
