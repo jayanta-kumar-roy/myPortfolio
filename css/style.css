@@ -6,6 +6,9 @@
     padding:0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 .logo{
     width:20%;
     display: flex;
@@ -118,7 +121,7 @@
 
 .btn{
     padding: 8px 20px;
-    margin:7px 0;
+    margin:7px auto;
     border : 2px solid white;
     border-radius:8px;
     background:none;
@@ -162,7 +165,7 @@
 
 .contact{
     background-color: #deb8876b;
-    height: 30rem;
+    height: auto;
     color: white;
 }
 
@@ -174,7 +177,9 @@
 
 .form{
     max-width: 500px;
-    margin:5px auto;
+    margin:5px auto 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-input{
@@ -210,7 +215,7 @@
     }
     .navbar{
         flex-direction: column;
-        transition: all 0.3s ease-out;
+        transition: all 0.1s ease-out;
         height: 478px;
     }
     .rightNav {
@@ -234,7 +239,18 @@
         height:70px
     }
     .v-class-resp{
-        opacity: 0;
+        /* opacity: 0; */
+        visibility: hidden;
+    }
+    .form-input{
+        display: flex;
+        width:50%;
+        margin: 1rem auto;
+        
+    }
+    .form{
+    display: flex;
+     flex-direction: column;
     }
 }
 
